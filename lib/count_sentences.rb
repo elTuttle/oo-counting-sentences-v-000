@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   attr_accessor :string
-  
+
   def sentence?
     @string.end_with?("!" || "." || "?")
   end
